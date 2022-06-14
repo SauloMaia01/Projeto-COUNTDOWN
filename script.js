@@ -1,5 +1,11 @@
 'use strict';
 
+const atualizar = tempo) => {
+    const segundos = document.getElementById('segundos');
+
+    segundos.textContent = (tempo);
+}
+
 const contagemRegressiva = (tempo) => {
 
     const pararContagem = () => clearInterval(id);
@@ -9,7 +15,7 @@ const contagemRegressiva = (tempo) => {
         if (tempo === 0){
             pararContagem()
         }
-        console.log (tempo);
+        atualizar (tempo);
         tempo--;
     };
 
