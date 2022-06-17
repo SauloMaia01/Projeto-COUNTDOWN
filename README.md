@@ -4,4 +4,4 @@ criar um contador regressivo, utilizando template string, setInterval, e relembr
 
 Video do Youtube usado como base: https://youtu.be/nmWrwFjiCvo
 
-Resultado final:
+Resultado final: https://saulomaia01.github.io/Projeto-COUNTDOWN/ 
