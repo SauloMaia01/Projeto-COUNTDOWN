@@ -36,4 +36,12 @@ const contagemRegressiva = (tempo) => {
     const id = setInterval(contar, 1000);
 }
 
-contagemRegressiva(1120000);
+const tempoRestante = () => {
+    //1 segundo tem 1 milesegundos, basta dividir a data que quero pela data de hoje
+
+    const dataEvento = new Date ('2022-06-19 12:00:00');
+    const hoje = Date.now();
+    return Math.floor((dataEvento - hoje) / 1000);    
+}
+
+contagemRegressiva(tempoRestante());
